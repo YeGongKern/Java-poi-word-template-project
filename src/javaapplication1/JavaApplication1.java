@@ -380,8 +380,6 @@ public class JavaApplication1 {
     public static void main(String[] args) throws IOException, FileNotFoundException, InvalidFormatException, Exception {
         JavaApplication1.run("./test_file/docMergeTpl.docx",
                 "./test_file/my_out.docx");
-         Document doc_x = new Document("G:\\NetBeansProjects\\JavaApplication1\\test_file\\docMergeTpl.docx");
-            doc_x.save("G:\\NetBeansProjects\\JavaApplication1\\test_file\\docMergeTpl.pdf");
 
     }
 }
